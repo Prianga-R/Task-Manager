@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(248, 252, 255);
+  
+}
+.container {
+  max-width: 560px;
+  min-width:500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30px;
+  text-align: center;
+}
+input{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color:rgb(87, 87, 87);
+  color: white ;
+  border-radius: 20px;
+  border: none;
+}
+button:hover{
+  background-color:rgb(57, 57, 57);
+  border: 1px solid black;
+  padding: 9px 19px;
+}
+.tasks {
+  margin: 20px;
+  text-align: left;
+}
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+  margin-top: 15px;
+}
+li{
+  list-style-type: square;
+  font-size: 17px;
+}
+
